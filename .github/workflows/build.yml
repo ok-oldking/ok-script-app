@@ -86,7 +86,15 @@ jobs:
               * [ok-py-win32-China-setup.exe](https://github.com/ok-oldking/ok-py/releases/download/${{ github.ref_name }}/ok-py-win32-China-setup.exe) 完整安装包, 更新使用阿里云+腾讯CNB.               
               * [ok-py-win32-Global-setup.exe](https://github.com/ok-oldking/ok-py/releases/download/${{ github.ref_name }}/ok-py-win32-Global-setup.exe) full package with dependencies, using GitHub and PyPi as update source 
             ### 如果无法下载或下载慢, 可以使用其他下载源
-              * [Mirror酱下载渠道](https://mirrorchyan.com/zh/projects?rid=okpy&source=ok-py-release), 国内网页直链, 下载需要购买CD-KEY, 已有Mirror酱CD-KEY可免费下载
+              * [Mirror酱下载渠道](https://mirrorchyan.com/zh/projects?rid=ok-py&source=ok-py-release), 国内网页直链, 下载需要购买CD-KEY, 已有Mirror酱CD-KEY可免费下载
               * [夸克网盘](https://pan.quark.cn/s/a1052cec4d13), 免费, 但需要注册并下载夸克网盘客户端
           files: pyappify_dist/*
 
+      - name: Trigger MirrorChyanUploading
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: bash
+        run: |
+          gh workflow run --repo $GITHUB_REPOSITORY mirrorchyan_uploading.yml -f tag=${{ github.ref_name }}
+          gh workflow run --repo $GITHUB_REPOSITORY mirrorchyan_release_note.yml -f tag=${{ github.ref_name }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
