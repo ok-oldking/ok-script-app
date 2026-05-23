@@ -59,19 +59,28 @@ class TestMyOneTimeTask(TaskTestCase):
             self.task,
         )
         self.assertIsInstance(widget, ModifyListItem)
+        self.assertTrue(widget.allow_duplication)
 
         options = self.task.config_type["Drop Down Options Config"]["options_available"]
-        dialog = ModifyListDialog(["Available Drop Down Value 1"], widget, options_available=options)
+        dialog = ModifyListDialog(
+            ["Available Drop Down Value 1"],
+            widget,
+            options_available=options,
+            allow_duplication=widget.allow_duplication,
+        )
         result = []
         dialog.list_modified.connect(result.append)
 
-        self.assertEqual(3, dialog.available_list_widget.count())
-        dialog.available_list_widget.setCurrentRow(1)
-        dialog.add_available_item()
+        dialog.add_available_item("Available Drop Down Value 2")
+        dialog.add_available_item("Available Drop Down Value 2")
         dialog.confirm()
 
         self.assertEqual(
-            ["Available Drop Down Value 1", "Available Drop Down Value 2"],
+            [
+                "Available Drop Down Value 1",
+                "Available Drop Down Value 2",
+                "Available Drop Down Value 2",
+            ],
             result[0],
         )
         widget.list_modified(["Available Drop Down Value 1", "Not Available"])
