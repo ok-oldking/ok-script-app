@@ -8,9 +8,9 @@ ok-script==1.0.152
 OpenCC==1.2.0
 pynput==1.8.1
     # via -r requirements.in
-onnxocr-ppocrv5==0.0.14
+onnxocr-ppocrv5==0.0.18
     # via -r requirements.in
-pyappify==1.0.2
+pyappify==1.0.4
     # via ok-script
 certifi==2025.7.14
     # via requests

@@ -1,8 +1,8 @@
-name: "ok-py"
+name: "ok-script-app"
 uac: true
 profiles:
   - name: "China"
-    git_url: "https://cnb.cool/ok-oldking/ok-py.git"
+    git_url: "https://cnb.cool/ok-oldking/ok-script-app.git"
     admin: true
     main_script: "main.py"
     requires_python: "3.12"
