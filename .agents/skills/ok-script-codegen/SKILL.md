@@ -22,7 +22,7 @@ Use the official API document as the source of truth when API details are needed
 
 ## Core Generation Rules
 
-- Generate practical, stable, maintainable Python code compatible with ok-script, ok-py, and normal Python.
+- Generate practical, stable, maintainable Python code compatible with ok-script, ok-script-app, and normal Python.
 - Do not invent APIs. Use ok-script task APIs from the official docs or APIs already present in the target project.
 - Prefer `wait_` methods for state-dependent UI transitions:
   `wait_ocr`, `wait_click_ocr`, `wait_feature`, `wait_click_feature`.

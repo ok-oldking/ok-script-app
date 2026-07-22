@@ -1,8 +1,8 @@
-## ok-py
+## ok-script-app
 
 [English](README_en.md) | 中文
 
-ok-py 是一个基于 [ok-script](https://github.com/ok-oldking/ok-script) 的 Python 自动化项目模板。它提供了可直接运行的 GUI、任务示例、配置控件示例、OCR 示例、模板匹配示例、测试用例和打包配置，适合用来快速创建自己的 Windows 自动化脚本项目。
+ok-script-app 是一个基于 [ok-script](https://github.com/ok-oldking/ok-script) 的 Python 自动化项目模板。它提供了可直接运行的 GUI、任务示例、配置控件示例、OCR 示例、模板匹配示例、测试用例和打包配置，适合用来快速创建自己的 Windows 自动化脚本项目。
 
 这个仓库不是某个具体游戏的自动化成品，而是 ok-script 应用的起步工程和功能演示。
 

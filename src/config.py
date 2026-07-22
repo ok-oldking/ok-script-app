@@ -93,16 +93,16 @@ config = {
     },
     'links': { # 关于里显示的链接, 可选
             'default': {
-                'github': 'https://github.com/ok-oldking/ok-py',
+                'github': 'https://github.com/ok-oldking/ok-script-app',
                 'discord': 'https://discord.gg/vVyCatEBgA',
-                'share': 'Download from https://github.com/ok-oldking/ok-py',
+                'share': 'Download from https://github.com/ok-oldking/ok-script-app',
                 'qq_group':'https://qm.qq.com/q/3Gq4VLvQe',
                 'qq_channel': 'https://pd.qq.com/s/djmm6l44y',
-                'faq': 'https://github.com/ok-oldking/ok-py'
+                'faq': 'https://github.com/ok-oldking/ok-script-app'
             }
         },
     'screenshots_folder': "screenshots", #截图存放目录, 每次重新启动会清空目录
-    'gui_title': 'ok-py',  #窗口名
+    'gui_title': 'ok-script-app',  #窗口名
     'template_matching': { # 可选, 如使用OpenCV的模板匹配
         'coco_feature_json': os.path.join('assets', 'coco_annotations.json'), #coco格式标记, 需要png图片, 在debug模式运行后, 会对进行切图仅保留被标记部分以减少图片大小
         'default_horizontal_variance': 0.002, #默认x偏移, 查找不传box的时候, 会根据coco坐标, match偏移box内的

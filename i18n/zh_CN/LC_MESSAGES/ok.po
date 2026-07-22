@@ -10,79 +10,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "一键日常"
-msgstr ""
+msgstr "一键日常"
 
 msgid "从要推的图的最左边开始"
-msgstr ""
+msgstr "从要推的图的最左边开始"
 
 msgid "体力本"
-msgstr ""
+msgstr "体力本"
 
 msgid "公共区"
-msgstr ""
+msgstr "公共区"
 
 msgid "兵棋推演"
-msgstr ""
+msgstr "兵棋推演"
 
 msgid "军备解析"
-msgstr ""
+msgstr "军备解析"
 
 msgid "冲锋"
-msgstr ""
+msgstr "冲锋"
 
 msgid "决策构象"
-msgstr ""
+msgstr "决策构象"
 
 msgid "刷钱本"
-msgstr ""
+msgstr "刷钱本"
 
 msgid "大月卡"
-msgstr ""
+msgstr "大月卡"
 
 msgid "尘烟"
-msgstr ""
+msgstr "尘烟"
 
 msgid "手枪"
-msgstr ""
+msgstr "手枪"
 
 msgid "推图"
-msgstr ""
+msgstr "推图"
 
 msgid "收菜"
-msgstr ""
+msgstr "收菜"
 
 msgid "活动情报补给"
-msgstr ""
+msgstr "活动情报补给"
 
 msgid "活动自律"
-msgstr ""
+msgstr "活动自律"
 
 msgid "深度搜索"
-msgstr ""
+msgstr "深度搜索"
 
 msgid "狙击"
-msgstr ""
+msgstr "狙击"
 
 msgid "班组"
-msgstr ""
+msgstr "班组"
 
 msgid "突击"
-msgstr ""
+msgstr "突击"
 
 msgid "竞技场"
-msgstr ""
+msgstr "竞技场"
 
 msgid "自动刷体力"
-msgstr ""
+msgstr "自动刷体力"
 
 msgid "购买免费礼包"
-msgstr ""
+msgstr "购买免费礼包"
 
 msgid "邮件"
-msgstr ""
+msgstr "邮件"
 
 msgid "领任务"
-msgstr ""
+msgstr "领任务"
 
 msgid "Configuration Demo Task"
 msgstr "配置演示任务"
@@ -242,3 +242,27 @@ msgstr "请只选择可用的多选值。"
 
 msgid "Select only available drop-down option values."
 msgstr "请只选择可用的下拉框选项值。"
+
+msgid "Python Files (*.py);;All Files (*)"
+msgstr "Python 文件 (*.py);;所有文件 (*)"
+
+msgid "触发器会不断调用run方法"
+msgstr "触发器会不断调用run方法"
+
+msgid "一般根据frame来判断是否需要运行"
+msgstr "一般根据frame来判断是否需要运行"
+
+msgid "Echo Key"
+msgstr "回声按键"
+
+msgid "Liberation Key"
+msgstr "解放按键"
+
+msgid "Resonance Key"
+msgstr "共鸣按键"
+
+msgid "Tool Key"
+msgstr "工具按键"
+
+msgid "In Game Hotkey for Skills"
+msgstr "游戏内技能快捷键"

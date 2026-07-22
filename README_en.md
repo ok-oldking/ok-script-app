@@ -1,8 +1,8 @@
-## ok-py
+## ok-script-app
 
 English | [中文](README.md)
 
-ok-py is a Python automation project template built on [ok-script](https://github.com/ok-oldking/ok-script). It includes a runnable GUI app, task examples, configuration widget examples, OCR examples, template matching examples, tests, localization files, and packaging configuration.
+ok-script-app is a Python automation project template built on [ok-script](https://github.com/ok-oldking/ok-script). It includes a runnable GUI app, task examples, configuration widget examples, OCR examples, template matching examples, tests, localization files, and packaging configuration.
 
 This repository is not a finished automation tool for a specific game. It is a starter project and feature demo for building your own ok-script application.
 

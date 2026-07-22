@@ -85,160 +85,184 @@ msgid "领任务"
 msgstr "Claim Missions"
 
 msgid "Configuration Demo Task"
-msgstr ""
+msgstr "Configuration Demo Task"
 
 msgid "Demonstrates every configuration widget for English to Chinese translation."
-msgstr ""
+msgstr "Demonstrates every configuration widget for English to Chinese translation."
 
 msgid "Drop Down Config"
-msgstr ""
+msgstr "Drop Down Config"
 
 msgid "Boolean Config"
-msgstr ""
+msgstr "Boolean Config"
 
 msgid "Integer Config"
-msgstr ""
+msgstr "Integer Config"
 
 msgid "Float Config"
-msgstr ""
+msgstr "Float Config"
 
 msgid "String Config"
-msgstr ""
+msgstr "String Config"
 
 msgid "Text Edit Config"
-msgstr ""
+msgstr "Text Edit Config"
 
 msgid "Folder Selector Config"
-msgstr ""
+msgstr "Folder Selector Config"
 
 msgid "File Selector Config"
-msgstr ""
+msgstr "File Selector Config"
 
 msgid "List Config"
-msgstr ""
+msgstr "List Config"
 
 msgid "Drop Down Options Config"
-msgstr ""
+msgstr "Drop Down Options Config"
 
 msgid "Multi Selection Config"
-msgstr ""
+msgstr "Multi Selection Config"
 
 msgid "Sub Boolean Config"
-msgstr ""
+msgstr "Sub Boolean Config"
 
 msgid "Sub String Config"
-msgstr ""
+msgstr "Sub String Config"
 
 msgid "Sub Float Config"
-msgstr ""
+msgstr "Sub Float Config"
 
 msgid "Game Hotkey Config"
-msgstr ""
+msgstr "Game Hotkey Config"
 
 msgid "Button Config"
-msgstr ""
+msgstr "Button Config"
 
 msgid "Button Options Config"
-msgstr ""
+msgstr "Button Options Config"
 
 msgid "Drop-down configuration with translated option values."
-msgstr ""
+msgstr "Drop-down configuration with translated option values."
 
 msgid "Single-line string configuration with a translated value."
-msgstr ""
+msgstr "Single-line string configuration with a translated value."
 
 msgid "Multi-line string configuration with a translated value."
-msgstr ""
+msgstr "Multi-line string configuration with a translated value."
 
 msgid "Folder selector configuration that stores the selected folder path."
-msgstr ""
+msgstr "Folder selector configuration that stores the selected folder path."
 
 msgid "File selector configuration with an optional file filter."
-msgstr ""
+msgstr "File selector configuration with an optional file filter."
 
 msgid "Dropdown option list restricted to available translated values."
-msgstr ""
+msgstr "Dropdown option list restricted to available translated values."
 
 msgid "Open the shared global configuration example."
-msgstr ""
+msgstr "Open the shared global configuration example."
 
 msgid "Button configuration that displays all current values."
-msgstr ""
+msgstr "Button configuration that displays all current values."
 
 msgid "Button configuration with multiple action buttons."
-msgstr ""
+msgstr "Button configuration with multiple action buttons."
 
 msgid "Drop Down Value 1"
-msgstr ""
+msgstr "Drop Down Value 1"
 
 msgid "Drop Down Value 2"
-msgstr ""
+msgstr "Drop Down Value 2"
 
 msgid "Select Demo Folder"
-msgstr ""
+msgstr "Select Demo Folder"
 
 msgid "Select Demo File"
-msgstr ""
+msgstr "Select Demo File"
 
 msgid "Multi Selection Value 1"
-msgstr ""
+msgstr "Multi Selection Value 1"
 
 msgid "Multi Selection Value 2"
-msgstr ""
+msgstr "Multi Selection Value 2"
 
 msgid "Multi Selection Value 3"
-msgstr ""
+msgstr "Multi Selection Value 3"
 
 msgid "Button Value"
-msgstr ""
+msgstr "Button Value"
 
 msgid "Show Config Values"
-msgstr ""
+msgstr "Show Config Values"
 
 msgid "Show Notification"
-msgstr ""
+msgstr "Show Notification"
 
 msgid "Button notification displayed."
-msgstr ""
+msgstr "Button notification displayed."
 
 msgid "Configuration values displayed."
-msgstr ""
+msgstr "Configuration values displayed."
 
 msgid "String Value"
-msgstr ""
+msgstr "String Value"
 
 msgid "Text Edit Value"
-msgstr ""
+msgstr "Text Edit Value"
 
 msgid "List Value 1"
-msgstr ""
+msgstr "List Value 1"
 
 msgid "List Value 2"
-msgstr ""
+msgstr "List Value 2"
 
 msgid "Sub String Value"
-msgstr ""
+msgstr "Sub String Value"
 
 msgid "Available Drop Down Value 1"
-msgstr ""
+msgstr "Available Drop Down Value 1"
 
 msgid "Available Drop Down Value 2"
-msgstr ""
+msgstr "Available Drop Down Value 2"
 
 msgid "Available Drop Down Value 3"
-msgstr ""
+msgstr "Available Drop Down Value 3"
 
 msgid "True"
-msgstr ""
+msgstr "True"
 
 msgid "False"
-msgstr ""
+msgstr "False"
 
 msgid "Select one of the available drop-down values."
-msgstr ""
+msgstr "Select one of the available drop-down values."
 
 msgid "Select only available multi-selection values."
-msgstr ""
+msgstr "Select only available multi-selection values."
 
 msgid "Select only available drop-down option values."
-msgstr ""
+msgstr "Select only available drop-down option values."
+
+msgid "Python Files (*.py);;All Files (*)"
+msgstr "Python Files (*.py);;All Files (*)"
+
+msgid "触发器会不断调用run方法"
+msgstr "The trigger repeatedly calls the run method"
+
+msgid "一般根据frame来判断是否需要运行"
+msgstr "Typically determines whether to run based on the frame"
+
+msgid "Echo Key"
+msgstr "Echo Key"
+
+msgid "Liberation Key"
+msgstr "Liberation Key"
+
+msgid "Resonance Key"
+msgstr "Resonance Key"
+
+msgid "Tool Key"
+msgstr "Tool Key"
+
+msgid "In Game Hotkey for Skills"
+msgstr "In-Game Hotkeys for Skills"
