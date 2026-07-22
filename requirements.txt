@@ -4,9 +4,9 @@
 
 adbutils==2.12.0
     # via -r requirements.in
-certifi==2026.5.20
+certifi==2026.6.17
     # via requests
-charset-normalizer==3.4.7
+charset-normalizer==3.4.9
     # via requests
 comtypes==1.4.16
     # via pycaw
@@ -25,21 +25,21 @@ numpy==2.4.6
     #   opencv-python
     #   openvino
     #   shapely
-ok-script==1.0.154
+ok-script==1.0.165
     # via -r requirements.in
 onnxocr-ppocrv5==0.0.18
     # via -r requirements.in
-opencc==1.3.1
+opencc==1.4.1
     # via -r requirements.in
-opencv-python==4.13.0.92
+opencv-python==5.0.0.93
     # via -r requirements.in
-openvino==2026.2.0
+openvino==2026.2.1
     # via -r requirements.in
 openvino-telemetry==2025.2.0
     # via openvino
 packaging==26.2
     # via deprecation
-pillow==12.2.0
+pillow==12.3.0
     # via
     #   adbutils
     #   onnxocr-ppocrv5
@@ -47,7 +47,7 @@ psutil==7.2.2
     # via
     #   ok-script
     #   pycaw
-pyappify==1.0.4
+pyappify==1.0.6
     # via ok-script
 pycaw==20240210
     # via ok-script
@@ -71,7 +71,7 @@ pyside6-fluent-widgets==1.11.2
     #   ok-script
 pysidesix-frameless-window==0.8.1
     # via pyside6-fluent-widgets
-pywin32==311
+pywin32==312
     # via
     #   ok-script
     #   pysidesix-frameless-window
@@ -90,7 +90,7 @@ shiboken6==6.11.1
     #   pyside6-essentials
 six==1.17.0
     # via pynput
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via ok-script
 urllib3==2.7.0
     # via requests
